@@ -74,6 +74,11 @@ details{border:1px solid var(--bd);border-radius:10px;background:var(--bg2);padd
 .mt .bd2{padding:16px 18px}.mt .bd2 .ic{width:22px;height:22px;color:var(--c);float:right}.mt h3{margin:0 0 6px;font-size:15px}.mt p{margin:0 0 10px;color:var(--mu);font-size:13px}.mt .tg span{display:inline-block;font-size:11px;border:1px solid var(--bd);border-radius:6px;padding:1px 8px;margin:0 5px 4px 0;color:var(--c)}
 @media(max-width:560px){.mt{grid-template-columns:78px 1fr}}
 .sc{cursor:pointer}.sc .mr{margin-top:14px;font-size:12px;color:var(--c)}.sc:hover .mr{text-decoration:underline}
+.cta a{position:relative;transition:transform .25s,box-shadow .25s,background .25s,color .25s}
+.cta a:focus-visible{outline:none;transform:translateY(-5px);box-shadow:0 0 0 1px var(--ac),0 14px 30px -12px var(--ac),0 0 22px var(--glow)}
+.cta a:active{transform:translateY(-1px) scale(.98);box-shadow:0 0 0 1px var(--ac),0 0 24px var(--ac)}
+@media (hover:hover){.cta a:hover{transform:translateY(-5px);background:color-mix(in srgb,var(--ac) 14%,var(--bg2));box-shadow:0 0 0 1px var(--ac),0 14px 30px -12px var(--ac),0 0 22px var(--glow)}
+.cta a:first-child:hover{background:var(--ac);color:var(--bg);box-shadow:0 0 0 1px var(--ac),0 14px 34px -10px var(--ac),0 0 30px var(--ac)}}
 </style></head><body><svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></symbol>
 <symbol id="i-web" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M6.5 6.5h.01M9.5 6.5h.01M9 13l-2 2 2 2M15 13l2 2-2 2M13 12l-2 6"/></symbol>
